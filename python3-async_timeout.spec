@@ -5,13 +5,13 @@
 Summary:	Timeout context manager for asyncio programs
 Summary(pl.UTF-8):	Zarządca kontekstu z limitem czasu dla programów asyncio
 Name:		python3-async_timeout
-Version:	3.0.1
-Release:	2
+Version:	4.0.1
+Release:	1
 License:	Apache v2.0
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/async-timeout/
 Source0:	https://files.pythonhosted.org/packages/source/a/async-timeout/async-timeout-%{version}.tar.gz
-# Source0-md5:	305c4fa529f2485c403d0dbe14390175
+# Source0-md5:	b8b6dd636d2586470d20fec1c2694b35
 URL:		https://pypi.org/project/async-timeout/
 BuildRequires:	python3-modules >= 1:3.5.3
 BuildRequires:	python3-setuptools
