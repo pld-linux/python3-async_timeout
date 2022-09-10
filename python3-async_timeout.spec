@@ -19,12 +19,12 @@ BuildRequires:	python3-setuptools >= 1:45
 BuildRequires:	python3-pytest
 BuildRequires:	python3-pytest-asyncio
 BuildRequires:	python3-pytest-cov
-%if "%{py3_ver}" < "3.8"
+%if "%{_ver_lt '%{py3_ver}' '3.8'}" == "1"
 BuildRequires:	python3-typing_extensions >= 3.6.5
 %endif
 %endif
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.714
+BuildRequires:	rpmbuild(macros) >= 1.749
 Requires:	python3-modules >= 1:3.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
